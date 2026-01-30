@@ -29,6 +29,7 @@
 1. 克隆或下载本项目到本地
 
 2. 安装依赖：
+
 ```bash
 pip install python-dotenv requests beautifulsoup4
 ```
@@ -36,11 +37,13 @@ pip install python-dotenv requests beautifulsoup4
 3. 配置环境变量：
 
 复制 `.env.example` 为 `.env`：
+
 ```bash
 cp .env.example .env
 ```
 
 编辑 `.env` 文件，填入你的禅道实例信息：
+
 ```bash
 ZENTAO_BASE_URL=https://your-zentao-instance.com/api.php/v1
 ZENTAO_ACCOUNT=your-username
@@ -160,23 +163,23 @@ print(f"Bug 创建成功，ID: {bug.get('id')}")
 
 ## 支持的 API 模块
 
-| 模块 | 说明 |
-|------|------|
-| **认证** | Token 获取和验证 |
+| 模块     | 说明               |
+| -------- | ------------------ |
+| **认证** | Token 获取和验证   |
 | **用户** | 用户管理、个人信息 |
-| **部门** | 部门列表和详情 |
-| **产品** | 产品管理 |
-| **项目** | 项目管理 |
-| **执行** | 执行/冲刺管理 |
-| **任务** | 任务管理 |
-| **Bug** | Bug 管理和跟踪 |
-| **需求** | 需求（Story）管理 |
-| **计划** | 产品计划管理 |
-| **发布** | 版本发布管理 |
+| **部门** | 部门列表和详情     |
+| **产品** | 产品管理           |
+| **项目** | 项目管理           |
+| **执行** | 执行/冲刺管理      |
+| **任务** | 任务管理           |
+| **Bug**  | Bug 管理和跟踪     |
+| **需求** | 需求（Story）管理  |
+| **计划** | 产品计划管理       |
+| **发布** | 版本发布管理       |
 | **测试** | 测试用例、测试套件 |
-| **文档** | 文档库管理 |
-| **反馈** | 用户反馈管理 |
-| **工单** | 工单管理 |
+| **文档** | 文档库管理         |
+| **反馈** | 用户反馈管理       |
+| **工单** | 工单管理           |
 
 ## 重要提示
 
@@ -285,4 +288,4 @@ python split_docs.py   # 拆分到各模块
 ## 相关链接
 
 - [禅道官网](https://www.zentao.net/)
-- [禅道 API 文档](https://www.zentao.net/book/api/zentaoapi1397.html)
+- [禅道 API 文档](https://www.zentao.net/book/api/1397.html)
